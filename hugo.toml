@@ -8,6 +8,7 @@ copyright = "&copy; 2023. All rights reserved."
 canonifyurls = true
 paginate = 10
 theme = "m10c"
+enableEmoji = true
 
 [indexes]
   tag = "tags"
@@ -15,7 +16,7 @@ theme = "m10c"
 
 [params]
   # Shown in the home page
-  description = ""
+  description = "Occasional thoughts about technology and whatever else is on my mind"
   #googleAnalytics = "Your Google Analytics tracking ID"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
@@ -56,3 +57,9 @@ theme = "m10c"
     weight = 4
     identifier = "about"
     url = "/about/"
+  [[menu.main]]
+    name = "Tags"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 4
+    identifier = "tags"
+    url = "/tags/"
