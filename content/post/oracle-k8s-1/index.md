@@ -1,5 +1,5 @@
 ---
-title: Ultimate Oracle Cloud Kubernetes Guide (2024) - Part 1
+title: Ultimate Oracle Cloud Free Kubernetes Cluster Guide (2024) - Part 1
 description: Up-to-date guide on running a cheap and efficient Kubernetes cluster on Oracle Cloud's Always Free tier
 date: 2024-06-08
 draft: false
