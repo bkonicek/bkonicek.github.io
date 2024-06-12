@@ -9,6 +9,7 @@ canonifyurls = true
 paginate = 10
 theme = "m10c"
 enableEmoji = true
+googleAnalytics = "G-3L0MLK328V"
 
 [indexes]
   tag = "tags"
@@ -17,7 +18,6 @@ enableEmoji = true
 [params]
   # Shown in the home page
   description = "Occasional thoughts about technology and whatever else is on my mind"
-  googleAnalytics = "G-3L0MLK328V"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
   highlightjs_extra_languages = ["yaml"]
