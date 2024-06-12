@@ -18,6 +18,8 @@ One option that gets recommended is Oracle Cloud (OCI). It has the most generous
 
 The goal of this guide is to clear up some of the confusion and then walk through how to get a fully cloud-managed Kubernetes cluster (OKE) running in Oracle Cloud that will be entirely covered by the Always Free limits. I'll be sure to highlight any areas where there is a risk of exceeding these free limits without realizing it. The purpose of this particular guide won't be to teach you how to use Kubernetes, but some of the basic concepts will come up as I explain some of the architectural decisions.
 
+If you see anything I got wrong or have questions feel free to open an Issue or Discussion in this blog's repo on [GitHub](https://github.com/bkonicek/bkonicek.github.io)!
+
 ## Oracle Free Tier
 > :warning: The terms of the Oracle Cloud Always Free tier can change at any time. I do my best in this guide to recommend resources and configurations that will not incur any costs as of the time of this writing. I make no guarantees and take no responsibility for any charges accrued in your personal Oracle Cloud accounts, or termination of your account for violating Oracle's policies. Always set up reasonable billing alerts, follow all of Oracle's terms and conditions, and read the official documentation before deploying any new cloud resources.
 
