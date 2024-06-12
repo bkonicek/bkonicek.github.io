@@ -17,7 +17,7 @@ enableEmoji = true
 [params]
   # Shown in the home page
   description = "Occasional thoughts about technology and whatever else is on my mind"
-  #googleAnalytics = "Your Google Analytics tracking ID"
+  googleAnalytics = "G-3L0MLK328V"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
   highlightjs_extra_languages = ["yaml"]
@@ -54,7 +54,7 @@ enableEmoji = true
   [[menu.main]]
     name = "About"
     pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 4
+    weight = 3
     identifier = "about"
     url = "/about/"
   [[menu.main]]
