@@ -24,6 +24,7 @@ As we saw in Part 1, OCI lets you have up to 2 VCNs completely free. We'll only 
 
 ### Create the VCN
 Creating the VCN itself is pretty straightforward. When you're logged into the OCI console, click the hamburger menu, then **Networking** and then "Virtual cloud networks". Click "Create VCN" and fill in the form.
+
 ![VCN setup](images/vcn.png)
 * **Name**: give it whatever name you'd like
 * **IPv4 CIDR Blocks**: We only need 1 CIDR Block, I'd recommend something large like a `/16`. We will be creating subnets within this range so you want it large enough to encompass them.
@@ -58,6 +59,7 @@ Quick note here - you might have noticed that the Always Free services list does
 To create our cluster, navigate to the **Containers & Artifacts** dashboard in the console. You can also find it under **Developer Services > Containers & Artifacts** in the hamburger menu. Click "Create cluster" and then select "Custom create".
 
 Give your cluster a name and press "Next". You can optionally view the advanced options and change them, but the default settings are perfectly fine. On the next page you'll configure the network settings based on the example config you decided to use in the **VCN** section of this post.
+
 ![Cluster networking](images/cluster-networking.png)
 * **Network type**: Be sure this matches the network type you chose to use (Flannel or OCI CNI).
 * **VCN**: Select the VCN you created earlier

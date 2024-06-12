@@ -40,6 +40,7 @@ Before we can start using the free tier we need to make an account. Be aware tha
 First, we will go to [oracle.com/cloud/free](https://www.oracle.com/cloud/free/) and register. It's pretty basic and just asks for your location, name, and e-mail address. Once you submit you will get a verification email sent to you. When you receive the verification email, click the link in it and finish registering.
 
 Generate a strong password (this will be used for your account root user login), select "Invdividual" for the customer type, and set your home region. I recommend whatever is closest to you geographically. You can also change your preassigned cloud account name if you wish. Once complete, hit **Continue**.
+
 ![Account setup](images/account-setup.png)
 
 At the next screen you will enter your personal contact information as well as do the payment/ID verification. As stated above, you will not be charged any money, this is just a fraud prevention measure to prevent people from abusing the free tier.
