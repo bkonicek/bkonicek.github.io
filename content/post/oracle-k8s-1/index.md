@@ -5,13 +5,18 @@ date: 2024-06-08
 draft: false
 tags: ["k8s", "oracle-k8s", "cloud"]
 ---
+# OKE Up & Running series
+* [Part 1]({{< ref "/oracle-k8s-1" >}}): Signing up for Oracle Cloud (You are here)
+* [Part 2]({{< ref "/oracle-k8s-2" >}}): Deploy the infrastructure 
+* Part 3
+***
 I often see people asking for advice on how to get hands-on practice with Kubernetes in a cloud environment, but understandably, they don't want to spend much money. While it's true that the long-term cheapest way to run K8s is on a spare computer at home, there are also some shortcomings - upgrades can be trickier, autoscaling is next to impossible, if you want to access your cluster from the public internet you might not want to expose your home network's public IP address (or might not know how to do so securely), and many more. Also, if your goal in doing this is to get a job in DevOps or SRE you might want to work with cloud-hosted services alongside your Kubernetes cluster.
 
 All the major cloud providers offer free trials with some amount of credits, but once those expire it can be very easy to accidentally rack up an unexpected bill. There are affordable options if all you want is a reasonably-priced cluster, like Digital Ocean or Linode, but these aren't used very often at large scale so I wouldn't necessarily recommend these for people interested in learning broader cloud skills.
 
 One option that gets recommended is Oracle Cloud (OCI). It has the most generous free tier, but is usually overlooked likely because Oracle Cloud doesn't have anywhere near the market share of the other major providers (AWS, Azure, GCP) so most people aren't very comfortable with using it. Additionally, there's a lot of confusion out there around what exactly you get with the Always Free resources. 
 
-The goal of this guide is to clear up some of the confusion and then walk through how to get a fully cloud-managed Kubernetes cluster (OKE) running in Oracle Cloud that will be entirely covered by the Always Free limits. I'll be sure to highlight any areas where there is a risk of exceeding these free limits without realizing it. The purpose of this particular guide won't be to teach you how to work with Kubernetes, but some of the basic concepts will come up as I explain some of the architectural decisions.
+The goal of this guide is to clear up some of the confusion and then walk through how to get a fully cloud-managed Kubernetes cluster (OKE) running in Oracle Cloud that will be entirely covered by the Always Free limits. I'll be sure to highlight any areas where there is a risk of exceeding these free limits without realizing it. The purpose of this particular guide won't be to teach you how to use Kubernetes, but some of the basic concepts will come up as I explain some of the architectural decisions.
 
 ## Oracle Free Tier
 > :warning: The terms of the Oracle Cloud Always Free tier can change at any time. I do my best in this guide to recommend resources and configurations that will not incur any costs as of the time of this writing. I make no guarantees and take no responsibility for any charges accrued in your personal Oracle Cloud accounts, or termination of your account for violating Oracle's policies. Always set up reasonable billing alerts, follow all of Oracle's terms and conditions, and read the official documentation before deploying any new cloud resources.
@@ -60,4 +65,4 @@ Finally, to upgrade your account, go back to the hamburger menu, select **Billin
 From this point on you are responsible for paying for any resources you use that exceed the Always Free tier, or that are not included in it.
 
 ## Conclusion
-That's it! Your OCI account setup is complete and you can now start using services. In Part 2 I will walk through creating the infrastructure that your cluster will run on.
+That's it! Your OCI account setup is complete and you can now start using services. In [Part 2]({{< ref "/oracle-k8s-2" >}}) I will walk through creating the infrastructure that your cluster will run on.
