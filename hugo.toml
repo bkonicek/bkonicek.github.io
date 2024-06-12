@@ -17,7 +17,7 @@ enableEmoji = true
 [params]
   # Shown in the home page
   description = "Occasional thoughts about technology and whatever else is on my mind"
-  #googleAnalytics = "Your Google Analytics tracking ID"
+  googleAnalytics = "G-3L0MLK328V"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
   highlightjs_extra_languages = ["yaml"]
