@@ -8,7 +8,7 @@ tags: ["k8s", "oracle-k8s", "cloud"]
 # OKE Up & Running series
 * [Part 1]({{< ref "/oracle-k8s-1" >}}): Signing up for Oracle Cloud (You are here)
 * [Part 2]({{< ref "/oracle-k8s-2" >}}): Deploy the infrastructure 
-* Part 3
+* Part 3: Coming soon
 ***
 I often see people asking for advice on how to get hands-on practice with Kubernetes in a cloud environment, but understandably, they don't want to spend much money. While it's true that the long-term cheapest way to run K8s is on a spare computer at home, there are also some shortcomings - upgrades can be trickier, autoscaling is next to impossible, if you want to access your cluster from the public internet you might not want to expose your home network's public IP address (or might not know how to do so securely), and many more. Also, if your goal in doing this is to get a job in DevOps or SRE you might want to work with cloud-hosted services alongside your Kubernetes cluster.
 
@@ -25,6 +25,7 @@ Oracle Cloud's free tier offering is broken into two categories - Always Free re
 
 ### Always Free
 Always Free is a subset of OCI services that are, within defined limits (as the name suggests), **always free** for all customers.
+
 ![Always free offerings](images/oci-always-free.png)
 
 You can find the full list [here](https://www.oracle.com/cloud/free/#free-cloud-trial) by filtering the **tier type** on "Always Free". There is more detailed documentation on specific services [here](https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm).
