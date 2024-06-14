@@ -8,7 +8,7 @@ tags: ["k8s", "oracle-k8s", "cloud"]
 # OKE Up & Running series
 * [Part 1]({{< ref "/oracle-k8s-1" >}}): Signing up for Oracle Cloud
 * [Part 2]({{< ref "/oracle-k8s-2" >}}): Deploy the infrastructure (You are here)
-* Part 3: Coming soon
+* [Part 3]({{< ref "/oracle-k8s-3" >}}): Day-2 Operations
 ***
 This is the 2nd part of our series on running a completely free multi-node Kubernetes cluster in Oracle Cloud. If you haven't already read [Part 1]({{< ref "/oracle-k8s-1" >}}) I'd recommend starting there.
 
