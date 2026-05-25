@@ -6,9 +6,9 @@ draft: false
 tags: ["k8s", "oracle-k8s", "cloud"]
 ---
 # OKE Up & Running series
-* [Part 1]({{< ref "/oracle-k8s-1" >}}): Signing up for Oracle Cloud
-* [Part 2]({{< ref "/oracle-k8s-2" >}}): Deploy the infrastructure
-* [Part 3]({{< ref "/oracle-k8s-3" >}}): Day-2 Operations (You are here)
+* [Part 1]({{< ref "oracle-k8s-1" >}}): Signing up for Oracle Cloud
+* [Part 2]({{< ref "oracle-k8s-2" >}}): Deploy the infrastructure
+* [Part 3]({{< ref "oracle-k8s-3" >}}): Day-2 Operations (You are here)
 ***
 # Day-2 Operations in OKE
 Now that we have our cluster up and running we can start deploying whatever we want to it!
