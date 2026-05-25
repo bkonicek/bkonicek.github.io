@@ -6,11 +6,11 @@ draft: false
 tags: ["k8s", "oracle-k8s", "cloud"]
 ---
 # OKE Up & Running series
-* [Part 1]({{< ref "/oracle-k8s-1" >}}): Signing up for Oracle Cloud
-* [Part 2]({{< ref "/oracle-k8s-2" >}}): Deploy the infrastructure (You are here)
-* [Part 3]({{< ref "/oracle-k8s-3" >}}): Day-2 Operations
+* [Part 1]({{< ref "oracle-k8s-1" >}}): Signing up for Oracle Cloud
+* [Part 2]({{< ref "oracle-k8s-2" >}}): Deploy the infrastructure (You are here)
+* [Part 3]({{< ref "oracle-k8s-3" >}}): Day-2 Operations
 ***
-This is the 2nd part of our series on running a completely free multi-node Kubernetes cluster in Oracle Cloud. If you haven't already read [Part 1]({{< ref "/oracle-k8s-1" >}}) I'd recommend starting there.
+This is the 2nd part of our series on running a completely free multi-node Kubernetes cluster in Oracle Cloud. If you haven't already read [Part 1]({{< ref "oracle-k8s-1" >}}) I'd recommend starting there.
 
 ## Summary
 We've successfully created an Oracle Cloud (OCI) account and upgraded it to Pay-As-You-Go billing to remove any limitations on what we're able to use. Now we get to move onto the fun part of actually building something.
@@ -92,6 +92,6 @@ On the next page, you will configure the node pool for your cluster.
 Make any other changes you'd like and click "Next" to review and then create your cluster. It will take some time to create. Once it is ready you can click on it and then click "Access Cluster" for instructions on setting up your kubeconfig. You can confirm it is working with a command like `kubectl get nodes`.
 
 ## Next steps
-Your cluster is now created and accessible and you can start using it however you'd like. In [Part 3]({{< ref "/oracle-k8s-3" >}}) I'll cover some important considerations when it comes to day-2 operations in the context of running the cluster in OCI as well as some other things to be aware of around Always Free limits.
+Your cluster is now created and accessible and you can start using it however you'd like. In [Part 3]({{< ref "oracle-k8s-3" >}}) I'll cover some important considerations when it comes to day-2 operations in the context of running the cluster in OCI as well as some other things to be aware of around Always Free limits.
 
 I would also recommend over the next couple days logging in to the console every so often and visiting the [Cost Analysis](https://cloud.oracle.com/account-management/cost-analysis) page to make sure nothing is racking up charges unexpectedly. The sooner you catch it the sooner you can shut it down and figure out how to fix it before it costs you too much money.
